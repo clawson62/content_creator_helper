@@ -13,7 +13,8 @@ Youtube
 - Comments on videos by Lex Fridman main podcast channel
 
 Reddit
-- Submissions and Comments containing "lex" and "fridman"
+- Submissions containing "lex" and "fridman"
+- Comments containing "lex" and "fridman" (too large for github)
 
 
 **Analytics Used:**
