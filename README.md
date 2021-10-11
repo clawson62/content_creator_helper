@@ -1,5 +1,4 @@
 # Content Creator Helper
-# Contents
 ## Plan
 **(Completed) Collect data** relating to Lex comments on Youtube, Twitter, and mentions on Reddit
 
