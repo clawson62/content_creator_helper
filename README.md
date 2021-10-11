@@ -1,35 +1,47 @@
 # Content Creator Helper
-### Content Creator: Lex Fridman 
-Data and code to collect text about Lex Fridman pertaining to podcasts, comments, and emails to engage better with viewers
+# Contents
+## Plan
+**(Completed) Collect data** relating to Lex comments on Youtube, Twitter, and mentions on Reddit
+
+**Create useful analytics** such as top questions from subscribers, average sentiment per video, etc
+
+**Repeat for popular figures** to collect and analyze their data in the effort to understand them better before podcasts
+
+**Automate** the process per new viedo and tweet and email Lex results
+
+**Further Projects** 
 
 
-**Data Collected:** 
 
-Twitter 
-- Tweets from Lex Fridman
-- Tweets containing "lex" AND "fridman"
+## Data Collection (Completed)
+- Twitter: ~16k Tweets containing "lex" AND "fridman" -Twint python package
 
-Youtube
-- Comments on videos by Lex Fridman main podcast channel
+- Youtube: Video comments on 463 Lex Fridman videos - Youtube API v3
 
-Reddit
-- Submissions containing "lex" and "fridman"
-- Comments containing "lex" and "fridman" (too large for github)
+- Reddit: ~6k posts containing "lex" AND "fridman" - PRAW API v7.2.0
 
+## Analytics
+- Find Top Questions - search for "?" or question words
 
-**Analytics Used:**
+- Sentiment - Bag of Words, Fastext Twitter model, and Seq-to_Seq Twitter model
 
-Bag of Words sentiment
-
-Part of Speech Tagging (Penn-Treebank)
-
-YAKE Keyword Extraction
+- Most Talked About Topics - Part of Speech (POS) tagging, Keyword extraction
 
 
-**Available Scrips:**
+## Popular Figures Research
+Search their Twitter feed, wiki page collection, etc
 
-Search Twitter for person or topic
 
-Search Reddit for topic
+## Automation
+Once video or tweet has collected N comments, create automated email to Lex summarizing results
 
-Search Youtube comments from specified channel
+
+
+## Further Projects
+- F&Q page based on top questions from collected data
+- Newsletter about interesting topics/people
+- Explore other data sources such as email, LinkedIn, and Instagram
+
+
+
+
