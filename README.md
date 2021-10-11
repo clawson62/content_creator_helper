@@ -28,7 +28,7 @@
 
 
 ## Popular Figures Research
-Search their Twitter feed, wiki page collection, etc to help with understanding guests
+Search their social media, wiki page collection, website, books, and previous interviews to help with understanding guests
 
 
 ## Automation
