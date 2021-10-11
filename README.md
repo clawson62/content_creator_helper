@@ -25,7 +25,7 @@ Part of Speech Tagging (Penn-Treebank)
 YAKE Keyword Extraction
 
 
-**Availible Scrips:**
+**Available Scrips:**
 
 Search Twitter for person or topic
 
