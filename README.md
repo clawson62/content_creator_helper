@@ -15,6 +15,10 @@
 ## Data Collection (Completed)
 - Twitter: ~16k Tweets containing "lex" AND "fridman" -Twint python package
 
+- Twitter: ~1500 Tweets from lexfridman account -Twint python package
+
+- Twitter: ~ Tweet replies on all lexfridman tweets -Scraped
+
 - Youtube: Video comments on 463 Lex Fridman videos - Youtube API v3
 
 - Reddit: ~6k posts containing "lex" AND "fridman" - PRAW API v7.2.0
