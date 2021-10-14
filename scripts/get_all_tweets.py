@@ -21,7 +21,7 @@ while attempts<3:
     print("attempts",attempts)
     error = 0
     
-    # again, errrors often, 5 attempts
+    # again, errors often, 5 attempts
     while error<5:
         try:
             print(error,"trying with",to_path+last_date+".csv")
@@ -41,7 +41,7 @@ while attempts<3:
             time.sleep(1)
 
     
-    # this gets used if errors, finds last date in csv, and starts again from there
+    # gets used if errors. finds last date in csv, and starts again from there
     if os.path.isfile(to_path+last_date+".csv"):
         print("file was created")
         check_df = pd.read_csv(to_path+last_date+".csv")
